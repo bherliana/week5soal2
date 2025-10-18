@@ -5,6 +5,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Reservation Hotel Room</title>
+    <link rel="stylesheet" href="index.css" type="text/css" media="screen" />
     <style type="text/css">
     * {
         margin: 0;
@@ -266,3 +267,4 @@
     </div>
 </body>
 </html>
+
