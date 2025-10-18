@@ -5,7 +5,6 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Reservation Hotel Room</title>
-    <link rel="stylesheet" href="mystylesheet.css" type="text/css" media="screen" />
     <style type="text/css">
     * {
         margin: 0;
@@ -15,7 +14,7 @@
     body{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         line-height: 1.6;
-        color: #333;
+        color: #a57e7e;
         background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
         min-height: 100vh;
         padding: 20px;
@@ -23,16 +22,17 @@
     .container{
         max-width: 900px;
         margin: 0 auto;
-        background: #fff;
+        background: #4e1630;
         border-radius: 15px;
-        box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        box-shadow: 0 20px 30px rgba(0,0,0,0.1);
         overflow: hidden;
     }
     h1{
         text-align: center;
-        color: #2c3e50;
+        color: #4b235a;
+        font-weight: bold;
         padding: 30px 20px;
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background: linear-gradient(135deg, #93a9cb 0%, #c3cfe2 100%);
         margin: 0;
         font-size: 2.2em;
         font-weight: 300;
@@ -42,7 +42,7 @@
         padding: 0 30px 30px 30px;
     }
     fieldset{
-        border: 2px solid #e3e9f1;
+        border: 2px solid #94e79f;
         border-radius: 10px;
         padding: 25px;
         margin: 25px 0;
@@ -51,14 +51,14 @@
     }
     fieldset:hover{
         border-color: #3498db;
-        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.1);
+        box-shadow: 0 5px 15px rgba(143, 184, 212, 0.1);
     }
     legend{
         font-size: 1.4em;
         font-weight: 600;
         color: #2c3e50;
         padding: 0 20px;
-        background: #fff;
+        background: #e8aaaa;
         border-radius: 25px;
         border: 2px solid #3498db;
     }
@@ -68,7 +68,7 @@
     }
     .form-row label{
         font-weight: 600;
-        color: #2c3e50;
+        color: #7095ba;
         margin-bottom: 8px;
         display: block;
         font-size: 1.1em;
@@ -82,8 +82,11 @@
         border-radius: 8px;
         font-size: 16px;
         transition: all 0.3s ease;
-        background: #fff;
+        background: #dbe3d7;
         font-family: inherit;
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
     }
     input[type="text"]:focus,
     input[type="email"]:focus,
@@ -115,8 +118,8 @@
         appearance: none;
         width: 20px;
         height: 20px;
-        border: 2px solid #bdc3c7;
-        border-radius: 50%;
+        border: 2px solid #d4f190;
+        border-radius: 60%;
         margin-right: 8px;
         position: relative;
         cursor: pointer;
@@ -154,19 +157,19 @@
         transition: all 0.3s ease;
         text-transform: uppercase;
         letter-spacing: 1px;
-        box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        box-shadow: 0 5px 15px rgba(66, 49, 73, 0.713);
     }
     input[type="submit"]:hover{
         background: linear-gradient(135deg, #2980b9, #3498db);
         transform: translateY(-3px);
-        box-shadow: 0 8px 25px rgba(52, 152, 219, 0.4);
+        box-shadow: 0 8px 25px rgba(89, 100, 226, 0.4);
     } 
     input[type="submit"]:active{
         transform: translateY(-1px);
     }
     @media (max-width: 768px){
         .radio-group { flex-direction: column; gap: 10px; }
-        input[type="submit"] { width: 100%; }
+        input[type="submit"] { width: 50%; }
     }
     .required::after{
         content: " *";
@@ -255,7 +258,7 @@
                 </div><br />
             </fieldset>
         
-            <div class="submit-container">
+            <div style="submit-container">
                 <input type="submit" name="submit" value="submit" />
             </div>
 
